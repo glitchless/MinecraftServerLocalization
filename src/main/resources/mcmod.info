@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "serverlocalization",
+    "name": "Server Localization",
+    "description": "Mod for localization server message",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "LionZXY"
+    ],
+    "credits": "StealthTech for beautiful mod icon",
+    "logoFile": "assets/serverlocalization/logo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
