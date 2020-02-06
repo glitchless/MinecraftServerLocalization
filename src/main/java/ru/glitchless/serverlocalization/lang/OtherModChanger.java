@@ -13,7 +13,7 @@ public class OtherModChanger implements ILangChanger {
         for (ModContainer container : Loader.instance().getActiveModList()) {
             InputStream is = OtherModChanger.class.getResourceAsStream("/assets/" + container.getModId() + "/lang/" + lang + ".lang");
             if (is == null) {
-                return;
+                continue;
             }
             LanguageMap.inject(is);
             logger.info("Change lang to " + lang + " for " + container.getModId() + " done!");
